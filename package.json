@@ -1,0 +1,31 @@
+{
+  "name": "backstage",
+  "version": "0.1.0",
+  "description": "Test project for Istanbul coverage",
+  "scripts": {
+    "test": "node_modules/.bin/istanbul cover -v node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "author": "",
+  "dependencies": {
+    "classnames": "^2.0.0",
+    "istanbul": "^0.3.14",
+    "jsdom": "^3.1.1",
+    "lodash": "^3.7.0",
+    "mocha": "^2.2.5",
+    "node-static": "^0.7.6",
+    "object-assign": "^2.0.0",
+    "react": "^0.13.2",
+    "react-bootstrap": "^0.21.0",
+    "react-modal": "git://github.com/adform/react-modal.git#master",
+    "react-paginate": "^0.1.27",
+    "react-router": "^0.13.2",
+    "react-tools": "^0.13.3",
+    "reactify": "^1.1.0",
+    "rsvp": "^3.0.18",
+    "run-sequence": "^1.1.0",
+    "superagent": "^1.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {}
+}
